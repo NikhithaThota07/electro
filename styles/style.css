@@ -4,6 +4,9 @@
     border: 0;
     text-decoration: none;
 }
+:root{
+    --primart-one : rgb(232, 232, 61);
+}
 .container{
     height: auto;
     width: 100%;
@@ -282,16 +285,85 @@ border-radius: 50px;
     height: 300px;
     width: 500px;
     margin-top: 80px;
+    margin-right: 150px;
+}
+.content721{
+    height: 200px;
+    width: 400px;
+    background-color:rgb(33, 10, 49);
+    margin-top: -150px;
+    position: absolute;
+    overflow: hidden;
+    color: white;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.content721 p{
+    padding: 30px;
+    font-size: 16px;
+}
+.content721 h4{
+    margin-left: 200px;
+}
+.content8{
+    height: 400px;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    background-color: gray;
+}
+.content8 img{
+    height: 400px;
+    width: 500px;
+}
+.content81{
+    padding: 40px;
+}
+.content81 h2{
+    font-size: 50px;
+
+}
+.content81 p{
+    font-size: 20px;
+    margin-top: 30px;
     margin-right: 100px;
+}
+.content81 button{
+    height: 30px;
+    width: 200px;
+    background-color: orange;
+    border-radius: 10px;
+    margin: 20px;
+    font-size: 16px;
 }
 .content9{
     height: 500px;
     width: 100%;
+    display: flex;
+}
+.content91{
+    margin-top: 30px;
+}
+.content91 h3{
+    margin-left: 50px;
+}
+.content91 .box{
+    height: 50px;
+    width:200px ;
+    margin: 30px;
+    border: 1px black solid;
+}
+.content92 h1{
+    margin-left: 400px;
+    margin-top: 20px;
+    font-size: 40px;
 }
 .accordion{
     width: 80%;
     max-width: 600px;
     padding-top: 80px;
+    margin-left: 200px;
+    margin-top: -40px;
 }
 
 .accordion-item{
@@ -299,6 +371,7 @@ border-radius: 50px;
     margin-bottom: 10px;
     overflow: hidden;
     margin-bottom: 30px;
+    border: 1px black solid;
 }
 
 .accordion-header{
@@ -344,4 +417,77 @@ border-radius: 50px;
 }
 .accordion hr{
     width: 530px;
+}
+footer{
+    background: black;
+    padding: 80px 50px;
+    color: white;
+}
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icons a{
+    font-size: 30px;
+    padding-right: 30px;
+    color: var(--primart-one);
+}
+.icons{
+    display: flex;
+    padding: 16px 10px 20px 10px;
+}
+.fone{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer span{
+    color: var(--primart-one);
+    color: white;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form{
+    background: rgb(30, 30, 30);
+    border: 1px solid #363535;
+    padding: 30px 30px;
+    margin-left:30px;
+    border-radius: 5px;
+}
+.form input{
+    height: 50px;
+    width: 300px;
+    background: none;
+    border: 1px solid #363535;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+button{
+    height: 55px;
+    width: 200px;
+    background: var(--primart-one);
+    border: none;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+button:hover{
+    background: white;
+    color: var(--primart-one);
+}
+.none1{
+    width: 95%;
+}
+.none1 h1{
+    margin-top: -100px;
+    margin-bottom: 10px;
+}
+.none1 p{
+    margin-top: 20px;
+    padding: 10px;
 }
