@@ -1,5 +1,4 @@
-
-  function toggleAccordion(element) {
+function toggleAccordion(element) {
     const accordionHeader = element;
     const accordionContent = accordionHeader.nextElementSibling;
 
@@ -17,11 +16,10 @@
         accordionHeader.classList.add("active");
     }
 }
+
 document.addEventListener('DOMContentLoaded', function() {
     const elements = document.querySelectorAll('.animate');
     elements.forEach((element, index) => {
-        element.style.animationDelay = `${index * 0.2}s`;
+        element.style.animationDelay = `${index * 0.2}`;
     });
 });
-
-

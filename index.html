@@ -12,7 +12,7 @@
 </head>
 <body>
     <div class="container">
-        <header>
+        <header >
             <ul>
             <li><a href="#"><span><ion-icon name="location"></ion-icon></span>
                 123 Main StreetSpringfield, USA 12345</a></li>
@@ -24,23 +24,49 @@
                 (212) 555-1234</a> </li>
             </ul>  
         </header>
-        <nav>
+        <nav >
             <a href="index.html"><img src="images/logo.png" alt="logo"></a>
             <ul>
-                <li><a href="index.html">Demos</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Services</a></li>
+                <li class="navitem"><a href="index.html">Demos ▼</a>
+                    <ul class="dropdown">
+                        <li class="dropdown-item "><a href="">Home 1</a></li>
+                        <li class="dropdown-item"><a href="">Home 2</a></li>
+                        <li class="dropdown-item"><a href="">Home 3</a></li>
+                    </ul>
+                </li>
+                <li class="navitem"><a href="aboutus.html">About us ▼</a>
+                    <ul class="dropdown">
+                        <li class="dropdown-item "><a href="aboutus.html">About us</a></li>
+                        <li class="dropdown-item"><a href="ourteam.html">our team</a></li>
+                        <li class="dropdown-item"><a href="">testimonials</a></li>
+                        <li class="dropdown-item"><a href="">FAQ</a></li>
+                        <li class="dropdown-item"><a href="">Contact Us</a></li>
+                        
+                    </ul>
+                </li>
+                <li><a href="services.html">Services</a></li>
                 <li><a href="price.html">pricing</a></li>
                 <li><a href="shop.html">shop</a></li>
-                <li><a href="#">All Pages</a></li>
+                <li class="navitem"><a href="#">All Pages  ▼</a>
+                    <ul class="dropdown">
+                        <li class="dropdown-item "><a href="aboutus.html">About us</a></li>
+                        <li class="dropdown-item"><a href="ourteam.html">our team</a></li>
+                        <li class="dropdown-item"><a href="">testimonials</a></li>
+                        <li class="dropdown-item"><a href="">FAQ</a></li>
+                        <li class="dropdown-item"><a href="">Contact Us</a></li>
+                        <li class="dropdown-item"><a href="services.html">services</a></li>
+                        <li class="dropdown-item"><a href="price.html">pricing</a></li>
+                        <li class="dropdown-item"><a href="index.html">Home</a></li>
+                    </ul>
+                </li>
             </ul>
             <ion-icon name="cart"></ion-icon>
             <button>Book Now</button>
         </nav>
-        <div class="content1">
+        <div class="content1 animate">
             <h1>WE ARE ELECTRIC SOLUTIONS EXPERTS</h1>
         </div>
-        <div class="content2">
+        <div class="content2 ">
             <div class="content21">
                 <p>Transform your space with our expert electrical services, designed to illuminate your home and enhance your living experience.</p>
                 <button>Book Now</button>
@@ -211,7 +237,7 @@
               </div>
               </div>
         </div></div>
-        <footer>
+        <footer >
             <div class="none1">
                 <h1>Electro</h1>
             <p>Electro stands as your foremost choice for exceptional electrical solutions.
